@@ -1,0 +1,38 @@
+.nav-container {
+  height: 70px;
+  background-color: #9796f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .nav-container {
+    padding-left: 110px;
+    padding-right: 110px;
+  }
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo-name {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: 'roboto';
+  color: #fff;
+}
+.logo {
+  width: 40px;
+  height: 48px;
+}
+.score-container {
+  display: flex;
+}
+.score {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'roboto';
+  color: #fff;
+  margin-left: 20px;
+}

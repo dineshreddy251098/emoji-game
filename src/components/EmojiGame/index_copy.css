@@ -1,0 +1,21 @@
+.bg-container {
+  height: 100vh;
+}
+.game-container {
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  padding: 10px;
+  height: 90vh;
+}
+@media screen and (min-width: 768px) {
+  .game-container {
+    padding: 50px 110px 50px 110px;
+    height: 100%;
+  }
+}
+.emojis-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline-start: 0px;
+  align-items: center;
+  justify-content: center;
+}
