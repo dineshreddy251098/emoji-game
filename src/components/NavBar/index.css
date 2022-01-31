@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 0px;
+  padding: 0px 12px 0px 12px;
 }
 @media screen and (min-width: 768px) {
   .nav-container {
@@ -17,10 +18,15 @@
   align-items: center;
 }
 .logo-name {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 600;
   font-family: 'roboto';
   color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .logo-name {
+    font-size: 28px;
+  }
 }
 .logo {
   width: 40px;
@@ -30,9 +36,15 @@
   display: flex;
 }
 .score {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 500;
   font-family: 'roboto';
   color: #fff;
-  margin-left: 20px;
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .score {
+    font-size: 24px;
+    margin-left: 20px;
+  }
 }
